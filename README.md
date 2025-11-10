@@ -26,18 +26,10 @@ A **DBMS-based college project** that manages and organizes public transport ope
 * **Drivers** – Driver details (name, license_no, contact)
 * **Bookings** – Ticket booking records (user_id, bus_id, seat_no, date)
 
-### ER Diagram
-
-```
-Users ---< Bookings >--- Buses ---< Schedules >--- Routes  
-Drivers ---< Assigned_To >--- Buses
-```
-
----
 
 ## ⚙️ Tech Stack
 
-* **Frontend**: HTML, CSS
+* **Frontend**: Streamlit- Python
 * **Backend**: Python
 * **Database**: MySQL
 
@@ -78,18 +70,6 @@ SOURCE schema.sql;
 * Open the frontend in your browser OR test via API endpoints
 
 ---
-
-## 📂 Project Structure
-
-```
-📦 public-transport-management  
- ┣ 📂 src/              # Backend source code  
- ┣ 📂 frontend/         # Web pages (if applicable)  
- ┣ 📂 sql/              # Database schema & queries  
- ┣ 📜 schema.sql        # SQL schema file  
- ┣ 📜 README.md         # Documentation  
-```
-
 ---
 
 ## 📝 Future Enhancements
@@ -105,8 +85,8 @@ SOURCE schema.sql;
 
 This project was created as part of a **DBMS College Project** by:
 
-*SNEHA VERMA
-*SWATHI D
+*SNEHA VERMA-PES1UG23AM309
+*SWATHI D- PES1UG23AM329
 
 ---
 
